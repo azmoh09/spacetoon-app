@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Spactoon App</string>
+    <string name="naruto_shippuden">Naruto Shippuden</string>
+    <string name="dragon_ball_super">Dragon Ball Super</string>
+    <string name="naruto">Naruto</string>
+    <string name="one_piece">One Piece</string>
+    <string name="minions">Minions</string>
+    <string name="season_2">season 2</string>
+    <string name="episode_10">episode 10</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="notifications">Notifications</string>
+    <string name="profile">Profile</string>
 </resources>
