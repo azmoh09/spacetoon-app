@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="56dp">
+
+        <ImageView
+
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginVertical="8dp"
+            android:layout_marginStart="16dp"
+            android:gravity="start"
+            android:src="@drawable/spacetoon_logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginEnd="21dp"
+            android:layout_marginVertical="20dp"
+            android:src="@drawable/search_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="110dp"
+        android:scrollbars="none"
+        >
+        
+        <LinearLayout
+            android:layout_marginTop="14dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="98dp">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="84dp"
+                android:src="@drawable/planet"
+                />
+                <TextView
+                    android:layout_width="33dp"
+                    android:layout_height="16dp"
+                    android:text="planet 1"
+                    android:layout_gravity="center"
+                    android:textSize="8sp"
+                    android:layout_weight="500"
+                    android:lineHeight="16dp"
+                    android:textColor="#000000"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="84dp"
+                    android:src="@drawable/planet2"
+                    />
+                <TextView
+                    android:layout_width="33dp"
+                    android:layout_height="16dp"
+                    android:text="planet 2"
+                    android:layout_gravity="center"
+                    android:textSize="8sp"
+                    android:layout_weight="500"
+                    android:lineHeight="16dp"
+                    android:textColor="#000000"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="84dp"
+                    android:src="@drawable/planet3"
+                    />
+                <TextView
+                    android:layout_width="33dp"
+                    android:layout_height="16dp"
+                    android:text="planet 3"
+                    android:layout_gravity="center"
+                    android:textSize="8sp"
+                    android:layout_weight="500"
+                    android:lineHeight="16dp"
+                    android:textColor="#000000"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="84dp"
+                    android:src="@drawable/planet2"
+                    />
+                <TextView
+                    android:layout_width="33dp"
+                    android:layout_height="16dp"
+                    android:text="planet 2"
+                    android:layout_gravity="center"
+                    android:textSize="8sp"
+                    android:layout_weight="500"
+                    android:lineHeight="16dp"
+                    android:textColor="#000000"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="84dp"
+                    android:src="@drawable/planet"
+                    />
+                <TextView
+                    android:layout_width="33dp"
+                    android:layout_height="16dp"
+                    android:text="planet 1"
+                    android:layout_gravity="center"
+                    android:textSize="8sp"
+                    android:layout_weight="500"
+                    android:lineHeight="16dp"
+                    android:textColor="#000000"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <HorizontalScrollView
+        android:scrollbars="none"
+        android:layout_marginTop="11dp"
+        android:layout_width="wrap_content"
+        android:layout_height="205dp">
+        <LinearLayout
+            android:layout_marginHorizontal="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="328dp"
+                android:layout_height="205dp"
+                android:src="@drawable/cartoon1"
+                android:layout_marginEnd="8dp"
+                />
+            <ImageView
+                android:layout_width="328dp"
+                android:layout_height="205dp"
+                android:src="@drawable/cartoon1"
+                android:layout_marginEnd="8dp"
+                />
+            <ImageView
+                android:layout_width="328dp"
+                android:layout_height="205dp"
+                android:src="@drawable/cartoon1"
+                android:layout_marginEnd="8dp"
+                />
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+    <LinearLayout
+        android:layout_marginTop="12dp"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginEnd="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle"
+
+            />
+        <ImageView
+            android:layout_marginEnd="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle"
+
+            />
+        <ImageView
+            android:layout_marginEnd="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle"
+
+            />
+        <ImageView
+            android:layout_marginEnd="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circleorange"
+
+            />
+        <ImageView
+            android:layout_marginEnd="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle"
+
+            />
+        <ImageView
+            android:layout_marginEnd="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle"
+
+            />
+        <ImageView
+            android:layout_marginEnd="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/circle"
+
+            />
+
+
+    </LinearLayout>
+    
+    <TextView
+        android:layout_marginTop="35dp"
+        android:layout_width="135dp"
+        android:layout_height="20dp"
+        android:text="Top rated series"
+        android:layout_marginStart="17dp"
+        android:textSize="18sp"
+        android:textColor="#2A1C14"
+        />
+    <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="16dp"
+                android:scrollbars="none"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="112dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_height="137dp"
+                        android:background="@drawable/dragon">
+
+                        <ImageView
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="1dp"
+                            android:background="@drawable/circleorange"
+                            android:src="@drawable/favorite_border"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.8"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:orientation="vertical"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent">
+
+                            <TextView
+                                style="@style/bigFontOnImage"
+                                android:layout_width="90dp"
+                                android:layout_height="22dp"
+                                android:layout_marginStart="8dp"
+                                android:text="Dragon ball"
+                                app:layout_goneMarginTop="120dp" />
+
+                            <TextView
+                                style="@style/smallFontOnImage"
+                                android:layout_width="90dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="8dp"
+                                android:text="season 3"
+                                app:layout_goneMarginTop="120dp" />
+                        </LinearLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="112dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_height="137dp"
+                        android:background="@drawable/nuroto">
+
+                        <ImageView
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="1dp"
+                            android:background="@drawable/circleorange"
+                            android:src="@drawable/favorite_border"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.8"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:orientation="vertical"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent">
+
+                            <TextView
+                                style="@style/bigFontOnImage"
+                                android:layout_width="90dp"
+                                android:layout_height="22dp"
+                                android:layout_marginStart="8dp"
+                                android:text="Naruto"
+                                app:layout_goneMarginTop="120dp" />
+
+                            <TextView
+                                style="@style/smallFontOnImage"
+                                android:layout_width="90dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="8dp"
+                                android:text="season 1"
+                                app:layout_goneMarginTop="120dp" />
+                        </LinearLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="112dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_height="137dp"
+                        android:background="@drawable/miniuos">
+
+                        <ImageView
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="1dp"
+                            android:background="@drawable/circleorange"
+                            android:src="@drawable/favorite_border"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.8"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:orientation="vertical"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent">
+
+                            <TextView
+                                style="@style/bigFontOnImage"
+                                android:layout_width="90dp"
+                                android:layout_height="22dp"
+                                android:layout_marginStart="8dp"
+                                android:text="Minions"
+                                app:layout_goneMarginTop="120dp" />
+
+                            <TextView
+                                style="@style/smallFontOnImage"
+                                android:layout_width="90dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="8dp"
+                                android:text="season 2"
+                                app:layout_goneMarginTop="120dp" />
+                        </LinearLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="112dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_height="137dp"
+                        android:background="@drawable/dragon">
+
+                        <ImageView
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="1dp"
+                            android:background="@drawable/circleorange"
+                            android:src="@drawable/favorite_border"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.8"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:orientation="vertical"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent">
+
+                            <TextView
+                                style="@style/bigFontOnImage"
+                                android:layout_width="90dp"
+                                android:layout_height="22dp"
+                                android:layout_marginStart="8dp"
+                                android:text="Dragon ball"
+                                app:layout_goneMarginTop="120dp" />
+
+                            <TextView
+                                style="@style/smallFontOnImage"
+                                android:layout_width="90dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="8dp"
+                                android:text="season 3"
+                                app:layout_goneMarginTop="120dp" />
+                        </LinearLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="112dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_height="137dp"
+                        android:background="@drawable/nuroto">
+
+                        <ImageView
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="1dp"
+                            android:background="@drawable/circleorange"
+                            android:src="@drawable/favorite_border"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.8"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:orientation="vertical"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent">
+
+                            <TextView
+                                style="@style/bigFontOnImage"
+                                android:layout_width="90dp"
+                                android:layout_height="22dp"
+                                android:layout_marginStart="8dp"
+                                android:text="Naruto"
+                                app:layout_goneMarginTop="120dp" />
+
+                            <TextView
+                                style="@style/smallFontOnImage"
+                                android:layout_width="90dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="8dp"
+                                android:text="season 1"
+                                app:layout_goneMarginTop="120dp" />
+                        </LinearLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+            <TextView
+                android:layout_marginTop="32dp"
+                android:layout_width="135dp"
+                android:layout_height="20dp"
+                android:text="New episodes"
+                android:layout_marginStart="17dp"
+                android:textSize="18sp"
+                android:textColor="#2A1C14"
+                />
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="16dp"
+                android:scrollbars="none"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    >
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="112dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_height="137dp"
+                        android:background="@drawable/dragon">
+
+                        <ImageView
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="1dp"
+                            android:background="@drawable/circleorange"
+                            android:src="@drawable/favorite"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.8"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:orientation="vertical"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent">
+
+                            <TextView
+                                style="@style/bigFontOnImage"
+                                android:layout_width="90dp"
+                                android:layout_height="22dp"
+                                android:layout_marginStart="8dp"
+                                android:text="Dragon ball"
+                                app:layout_goneMarginTop="120dp" />
+
+                            <TextView
+                                style="@style/smallFontOnImage"
+                                android:layout_width="90dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="8dp"
+                                android:text="season 3"
+                                app:layout_goneMarginTop="120dp" />
+                        </LinearLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="112dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_height="137dp"
+                        android:background="@drawable/nuroto">
+
+                        <ImageView
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="1dp"
+                            android:background="@drawable/circleorange"
+                            android:src="@drawable/favorite"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.8"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:orientation="vertical"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent">
+
+                            <TextView
+                                style="@style/bigFontOnImage"
+                                android:layout_width="90dp"
+                                android:layout_height="22dp"
+                                android:layout_marginStart="8dp"
+                                android:text="Naruto"
+                                app:layout_goneMarginTop="120dp" />
+
+                            <TextView
+                                style="@style/smallFontOnImage"
+                                android:layout_width="90dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="8dp"
+                                android:text="season 1"
+                                app:layout_goneMarginTop="120dp" />
+                        </LinearLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="112dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_height="137dp"
+                        android:background="@drawable/miniuos">
+
+                        <ImageView
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="1dp"
+                            android:background="@drawable/circleorange"
+                            android:src="@drawable/favorite"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.8"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:orientation="vertical"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent">
+
+                            <TextView
+                                style="@style/bigFontOnImage"
+                                android:layout_width="90dp"
+                                android:layout_height="22dp"
+                                android:layout_marginStart="8dp"
+                                android:text="Minions"
+                                app:layout_goneMarginTop="120dp" />
+
+                            <TextView
+                                style="@style/smallFontOnImage"
+                                android:layout_width="90dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="8dp"
+                                android:text="season 2"
+                                app:layout_goneMarginTop="120dp" />
+                        </LinearLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="112dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_height="137dp"
+                        android:background="@drawable/dragon">
+
+                        <ImageView
+                            android:layout_width="32dp"
+                            android:layout_height="32dp"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginEnd="1dp"
+                            android:background="@drawable/circleorange"
+                            android:src="@drawable/favorite"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.8"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:orientation="vertical"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent">
+
+                            <TextView
+                                style="@style/bigFontOnImage"
+                                android:layout_width="90dp"
+                                android:layout_height="22dp"
+                                android:layout_marginStart="8dp"
+                                android:text="Dragon ball"
+                                app:layout_goneMarginTop="120dp" />
+
+                            <TextView
+                                style="@style/smallFontOnImage"
+                                android:layout_width="90dp"
+                                android:layout_height="18dp"
+                                android:layout_marginStart="8dp"
+                                android:text="season 3"
+                                app:layout_goneMarginTop="120dp" />
+                        </LinearLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
