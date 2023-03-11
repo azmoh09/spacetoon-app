@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">Spactoon App</string>
+
+    <string name="content">Lorem ipsum dolor sit amet\nconsectetur. Dolor elementum\n molestie praesent tellus arcu\n augue id. Semper habitant\n euismod mauris sed. Elit lectus\n egestas vitae nulla aliquam\n adipiscing dolor nulla vel. Id augue\namet aenean turpis. Eget ut ut\n accumsan augue dui cras sagittis.</string>
+
     <string name="naruto_shippuden">Naruto Shippuden</string>
     <string name="dragon_ball_super">Dragon Ball Super</string>
     <string name="naruto">Naruto</string>
@@ -14,4 +17,5 @@
     <string name="planet">"planet "</string>
     <string name="top_rated">Top rated series</string>
     <string name="new_episodes">New episodes</string>
+
 </resources>
