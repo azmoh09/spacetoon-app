@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/marginMedium"
+        app:layout_constraintBottom_toTopOf="@id/bottom_navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/item1"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginEnd="@dimen/marginExtraSmall"
+                app:cardCornerRadius="@dimen/radiusSmall"
+                app:layout_constraintDimensionRatio="1:1.125"
+                app:layout_constraintEnd_toStartOf="@id/guideline_center"
+                app:layout_constraintStart_toEndOf="@+id/guideline_begin"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/minions"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/minions" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/inner_gradient" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="@dimen/favoriteButtonSize"
+                    android:layout_height="@dimen/favoriteButtonSize"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="@dimen/marginNormal"
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:background="@drawable/favorite_button"
+                    android:drawableStart="@drawable/ic_heart_filled"
+                    android:drawableTint="@color/md_theme_light_surface"
+                    android:padding="@dimen/paddingExtraSmall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginLarge"
+                    android:fontFamily="@font/quicksand_semi_bold"
+                    android:text="@string/minions"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textMedium"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:text="@string/season_2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSmall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:text="@string/episode_10"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSmall" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/item2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="@dimen/marginExtraSmall"
+                app:cardCornerRadius="@dimen/radiusSmall"
+                app:layout_constraintDimensionRatio="1:1.125"
+                app:layout_constraintEnd_toStartOf="@id/guideline_end"
+                app:layout_constraintStart_toEndOf="@+id/guideline_center"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/one_piece"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/one_piece" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/inner_gradient" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="@dimen/favoriteButtonSize"
+                    android:layout_height="@dimen/favoriteButtonSize"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="@dimen/marginNormal"
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:background="@drawable/favorite_button"
+                    android:drawableStart="@drawable/ic_heart_filled"
+                    android:drawableTint="@color/md_theme_light_surface"
+                    android:padding="@dimen/paddingExtraSmall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginLarge"
+                    android:fontFamily="@font/quicksand_semi_bold"
+                    android:text="@string/one_piece"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textMedium" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:text="@string/season_2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSmall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:text="@string/episode_10"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSmall" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/item3"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/marginSmall"
+                android:layout_marginEnd="@dimen/marginExtraSmall"
+                app:cardCornerRadius="@dimen/radiusSmall"
+                app:layout_constraintDimensionRatio="1:1.125"
+                app:layout_constraintEnd_toStartOf="@id/guideline_center"
+                app:layout_constraintStart_toEndOf="@+id/guideline_begin"
+                app:layout_constraintTop_toBottomOf="@id/item1">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/naruto"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/naruto" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/inner_gradient" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="@dimen/favoriteButtonSize"
+                    android:layout_height="@dimen/favoriteButtonSize"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="@dimen/marginNormal"
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:background="@drawable/favorite_button"
+                    android:drawableStart="@drawable/ic_heart_filled"
+                    android:drawableTint="@color/md_theme_light_surface"
+                    android:padding="@dimen/paddingExtraSmall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginLarge"
+                    android:fontFamily="@font/quicksand_semi_bold"
+                    android:text="@string/naruto"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textMedium"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:text="@string/season_2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSmall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:text="@string/episode_10"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSmall" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/item4"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="@dimen/marginExtraSmall"
+                android:layout_marginTop="@dimen/marginSmall"
+                app:cardCornerRadius="@dimen/radiusSmall"
+                app:layout_constraintDimensionRatio="1:1.125"
+                app:layout_constraintEnd_toStartOf="@id/guideline_end"
+                app:layout_constraintStart_toEndOf="@+id/guideline_center"
+                app:layout_constraintTop_toBottomOf="@id/item2">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/dragon_ball_super"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dragon_ball" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/inner_gradient" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="@dimen/favoriteButtonSize"
+                    android:layout_height="@dimen/favoriteButtonSize"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="@dimen/marginNormal"
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:background="@drawable/favorite_button"
+                    android:drawableStart="@drawable/ic_heart_filled"
+                    android:drawableTint="@color/md_theme_light_surface"
+                    android:padding="@dimen/paddingExtraSmall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginLarge"
+                    android:fontFamily="@font/quicksand_semi_bold"
+                    android:text="@string/dragon_ball_super"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textMedium"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:text="@string/season_2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSmall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:text="@string/episode_10"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSmall" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/item5"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/marginSmall"
+                android:layout_marginEnd="@dimen/marginExtraSmall"
+                app:cardCornerRadius="@dimen/radiusSmall"
+                app:layout_constraintDimensionRatio="1:1.125"
+                app:layout_constraintEnd_toStartOf="@id/guideline_center"
+                app:layout_constraintStart_toEndOf="@+id/guideline_begin"
+                app:layout_constraintTop_toBottomOf="@id/item3">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/naruto_shippuden"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kakashi" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/inner_gradient" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="@dimen/favoriteButtonSize"
+                    android:layout_height="@dimen/favoriteButtonSize"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="@dimen/marginNormal"
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:background="@drawable/favorite_button"
+                    android:drawableStart="@drawable/ic_heart_filled"
+                    android:padding="@dimen/paddingExtraSmall"
+                    app:drawableTint="@color/md_theme_light_surface" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginLarge"
+                    android:fontFamily="@font/quicksand_semi_bold"
+                    android:text="@string/naruto_shippuden"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textMedium"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:text="@string/season_2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSmall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:text="@string/episode_10"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSmall" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/item6"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="@dimen/marginExtraSmall"
+                android:layout_marginTop="@dimen/marginSmall"
+                app:cardCornerRadius="@dimen/radiusSmall"
+                app:layout_constraintDimensionRatio="1:1.125"
+                app:layout_constraintEnd_toStartOf="@id/guideline_end"
+                app:layout_constraintStart_toEndOf="@+id/guideline_center"
+                app:layout_constraintTop_toBottomOf="@id/item4">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/minions"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/minions" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/inner_gradient" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="@dimen/favoriteButtonSize"
+                    android:layout_height="@dimen/favoriteButtonSize"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="@dimen/marginNormal"
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:background="@drawable/favorite_button"
+                    android:drawableStart="@drawable/ic_heart_filled"
+                    android:drawableTint="@color/md_theme_light_surface"
+                    android:padding="@dimen/paddingExtraSmall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginLarge"
+                    android:fontFamily="@font/quicksand_semi_bold"
+                    android:text="@string/minions"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textMedium"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:text="@string/season_2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSmall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:text="@string/episode_10"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSmall" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/item7"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/marginSmall"
+                android:layout_marginEnd="@dimen/marginExtraSmall"
+                app:cardCornerRadius="@dimen/radiusSmall"
+                app:layout_constraintDimensionRatio="1:1.125"
+                app:layout_constraintEnd_toStartOf="@id/guideline_center"
+                app:layout_constraintStart_toEndOf="@+id/guideline_begin"
+                app:layout_constraintTop_toBottomOf="@id/item5">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/one_piece"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/one_piece" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/inner_gradient" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="@dimen/favoriteButtonSize"
+                    android:layout_height="@dimen/favoriteButtonSize"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="@dimen/marginNormal"
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:background="@drawable/favorite_button"
+                    android:drawableStart="@drawable/ic_heart_filled"
+                    android:drawableTint="@color/md_theme_light_surface"
+                    android:padding="@dimen/paddingExtraSmall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginLarge"
+                    android:fontFamily="@font/quicksand_semi_bold"
+                    android:text="@string/one_piece"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textMedium"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:text="@string/season_2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSmall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:text="@string/episode_10"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSmall" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/item8"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="@dimen/marginExtraSmall"
+                android:layout_marginTop="@dimen/marginSmall"
+                app:cardCornerRadius="@dimen/radiusSmall"
+                app:layout_constraintDimensionRatio="1:1.125"
+                app:layout_constraintEnd_toStartOf="@id/guideline_end"
+                app:layout_constraintStart_toEndOf="@+id/guideline_center"
+                app:layout_constraintTop_toBottomOf="@id/item6">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/naruto"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/naruto" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/inner_gradient" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="@dimen/favoriteButtonSize"
+                    android:layout_height="@dimen/favoriteButtonSize"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="@dimen/marginNormal"
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:background="@drawable/favorite_button"
+                    android:contentDescription="@string/favorite"
+                    android:drawableStart="@drawable/ic_heart_filled"
+                    android:drawableTint="@color/md_theme_light_surface"
+                    android:padding="@dimen/paddingExtraSmall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginLarge"
+                    android:fontFamily="@font/quicksand_semi_bold"
+                    android:text="@string/naruto"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textMedium"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:text="@string/season_2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSmall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:text="@string/episode_10"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSmall" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/item9"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/marginSmall"
+                android:layout_marginEnd="@dimen/marginExtraSmall"
+                app:cardCornerRadius="@dimen/radiusSmall"
+                app:layout_constraintDimensionRatio="1:1.125"
+                app:layout_constraintEnd_toStartOf="@id/guideline_center"
+                app:layout_constraintStart_toEndOf="@+id/guideline_begin"
+                app:layout_constraintTop_toBottomOf="@id/item7">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/dragon_ball_super"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/dragon_ball" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/inner_gradient" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="@dimen/favoriteButtonSize"
+                    android:layout_height="@dimen/favoriteButtonSize"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="@dimen/marginNormal"
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:background="@drawable/favorite_button"
+                    android:drawableStart="@drawable/ic_heart_filled"
+                    android:drawableTint="@color/md_theme_light_surface"
+                    android:padding="@dimen/paddingExtraSmall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginLarge"
+                    android:fontFamily="@font/quicksand_semi_bold"
+                    android:text="@string/dragon_ball_super"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textMedium"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:text="@string/season_2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSmall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:text="@string/episode_10"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSmall" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/item10"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="@dimen/marginExtraSmall"
+                android:layout_marginTop="@dimen/marginSmall"
+                app:cardCornerRadius="@dimen/radiusSmall"
+                app:layout_constraintDimensionRatio="1:1.125"
+                app:layout_constraintEnd_toStartOf="@id/guideline_end"
+                app:layout_constraintStart_toEndOf="@+id/guideline_center"
+                app:layout_constraintTop_toBottomOf="@id/item8">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:contentDescription="@string/naruto_shippuden"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/kakashi" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/inner_gradient" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="@dimen/favoriteButtonSize"
+                    android:layout_height="@dimen/favoriteButtonSize"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="@dimen/marginNormal"
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:background="@drawable/favorite_button"
+                    android:drawableStart="@drawable/ic_heart_filled"
+                    android:drawableTint="@color/md_theme_light_surface"
+                    android:padding="@dimen/paddingExtraSmall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginLarge"
+                    android:fontFamily="@font/quicksand_semi_bold"
+                    android:text="@string/naruto_shippuden"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textMedium"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:text="@string/season_2"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSmall" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:layout_marginBottom="@dimen/marginSmall"
+                    android:text="@string/episode_10"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/textSmall" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline_begin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="@dimen/marginMedium" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_end="@dimen/marginMedium" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="@dimen/marginMedium"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/item10" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/bottom_navigation_menu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
