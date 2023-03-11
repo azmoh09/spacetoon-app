@@ -11,4 +11,7 @@
     <string name="favorite">Favorite</string>
     <string name="notifications">Notifications</string>
     <string name="profile">Profile</string>
+    <string name="planet">"planet "</string>
+    <string name="top_rated">Top rated series</string>
+    <string name="new_episodes">New episodes</string>
 </resources>
