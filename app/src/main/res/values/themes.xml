@@ -37,6 +37,42 @@
     <style name="smallFontOnImage" parent="Widget.AppCompat.TextView">
         <item name="android:textColor">#ffffff</item>
         <item name="android:textSize">12dp</item>
+    </style>
 
+    <style name="planetsScrollImage">
+        <item name="android:layout_width">90dp</item>
+        <item name="android:layout_height">84dp</item>
+    </style>
+
+    <style name="seriesScrollImage">
+        <item name="android:layout_width">328dp</item>
+        <item name="android:layout_height">205dp</item>
+    </style>
+
+    <style name="loveButton">
+        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_marginTop">@dimen/marginNormal</item>
+        <item name="android:layout_marginEnd">@dimen/marginNormal</item>
+        <item name="android:background">@drawable/favorite_button</item>
+        <item name="android:drawableStart">@drawable/ic_heart_filled</item>
+        <item name="android:drawableTint">@color/md_theme_light_surface</item>
+        <item name="android:padding">@dimen/paddingExtraSmall</item>
+    </style>
+
+    <style name="seriesTitle" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_marginStart">@dimen/marginNormal</item>
+        <item name="android:layout_marginBottom">@dimen/marginLarge</item>
+        <item name="android:fontFamily">@font/quicksand_semi_bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/textMedium</item>
+    </style>
+
+    <style name="seriesSubTitle" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_marginStart">@dimen/marginNormal</item>
+        <item name="android:layout_marginBottom">@dimen/marginSmall</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/textSmall</item>
     </style>
 </resources>

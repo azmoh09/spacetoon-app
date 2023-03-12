@@ -4,8 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    >
+    android:layout_height="match_parent">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/appBar"
@@ -17,7 +16,6 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-
             android:layout_width="70dp"
             android:layout_height="40dp"
             android:layout_marginVertical="@dimen/marginSmall"
@@ -50,13 +48,11 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
             <HorizontalScrollView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:scrollbars="none"
-                >
+                android:scrollbars="none">
 
                 <LinearLayout
                     android:layout_marginTop="@dimen/marginMedium"
@@ -68,113 +64,88 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
                         <ImageView
-                            android:layout_width="90dp"
-                            android:layout_height="84dp"
-                            android:src="@drawable/planet"
-                            />
+                            style="@style/planetsScrollImage"
+                            android:src="@drawable/planet" />
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="@string/planet"
                             android:layout_gravity="center"
                             android:textSize="@dimen/textSmall"
-                            android:textColor="#000000"
-                            />
+                            android:textColor="@color/black" />
                     </LinearLayout>
                     <LinearLayout
                         android:orientation="vertical"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
                         <ImageView
-                            android:layout_width="90dp"
-                            android:layout_height="84dp"
-                            android:src="@drawable/planet2"
-                            />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/planet"
-                            android:layout_gravity="center"
-                            android:textSize="@dimen/textSmall"
-                            android:textColor="#000000"
-                            />
-                    </LinearLayout>
-                    <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
-                        <ImageView
-                            android:layout_width="90dp"
-                            android:layout_height="84dp"
-                            android:src="@drawable/planet3"
-                            />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/planet"
-                            android:layout_gravity="center"
-                            android:textSize="@dimen/textSmall"
-                            android:textColor="#000000"
-                            />
-                    </LinearLayout>
-                    <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
-                        <ImageView
-                            android:layout_width="90dp"
-                            android:layout_height="84dp"
-                            android:src="@drawable/planet"
-                            />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/planet"
-                            android:layout_gravity="center"
-                            android:textSize="@dimen/textSmall"
-                            android:textColor="#000000"
-                            />
-                    </LinearLayout>
-                    <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
-                        <ImageView
-                            android:layout_width="90dp"
-                            android:layout_height="84dp"
-                            android:src="@drawable/planet2"
-                            />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/planet"
-                            android:layout_gravity="center"
-                            android:textSize="@dimen/textSmall"
-                            android:textColor="#000000"
-                            />
-                    </LinearLayout>
-                    <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
-                        <ImageView
-                            android:layout_width="90dp"
-                            android:layout_height="84dp"
-                            android:src="@drawable/planet3"
-                            />
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/planet"
-                            android:layout_gravity="center"
-                            android:textSize="@dimen/textSmall"
-                            android:textColor="#000000"
-                            />
-                    </LinearLayout>
+                            style="@style/planetsScrollImage"
+                            android:src="@drawable/planet2" />
 
-
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            style="@style/planetsScrollImage"
+                            android:src="@drawable/planet3" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/planet"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/textSmall"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            style="@style/planetsScrollImage"
+                            android:src="@drawable/planet" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/planet"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/textSmall"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            style="@style/planetsScrollImage"
+                            android:src="@drawable/planet2" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/planet"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/textSmall"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            style="@style/planetsScrollImage"
+                            android:src="@drawable/planet3" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/planet"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/textSmall"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
                 </LinearLayout>
             </HorizontalScrollView>
+
             <HorizontalScrollView
                 android:scrollbars="none"
                 android:layout_marginTop="@dimen/marginLarge"
@@ -184,29 +155,26 @@
                     android:layout_marginHorizontal="@dimen/marginMedium"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent">
-                    <ImageView
-                        android:layout_width="328dp"
-                        android:layout_height="205dp"
-                        android:src="@drawable/cartoon1"
-                        android:layout_marginEnd="@dimen/marginSmall"
-                        />
-                    <ImageView
-                        android:layout_width="328dp"
-                        android:layout_height="205dp"
-                        android:src="@drawable/cartoon1"
-                        android:layout_marginEnd="@dimen/marginSmall"
-                        />
-                    <ImageView
-                        android:layout_width="328dp"
-                        android:layout_height="205dp"
-                        android:src="@drawable/cartoon1"
-                        android:layout_marginEnd="@dimen/marginSmall"
-                        />
 
+                    <ImageView
+                        style="@style/seriesScrollImage"
+                        android:src="@drawable/cartoon1"
+                        android:layout_marginEnd="@dimen/marginSmall" />
+                    <ImageView
+                        style="@style/seriesScrollImage"
+                        android:src="@drawable/cartoon1"
+                        android:layout_marginEnd="@dimen/marginSmall" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/planet"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/textSmall" />
                 </LinearLayout>
-
-
             </HorizontalScrollView>
+
             <LinearLayout
                 android:layout_marginTop="@dimen/marginNormal"
                 android:padding="@dimen/marginSmall"
@@ -218,40 +186,27 @@
                     android:layout_marginEnd="@dimen/marginNormal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/circle"
-
-                    />
+                    android:src="@drawable/circle" />
                 <ImageView
                     android:layout_marginEnd="@dimen/marginNormal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/circleorange"
-
-                    />
+                    android:src="@drawable/circleorange"/>
                 <ImageView
                     android:layout_marginEnd="@dimen/marginNormal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/circle"
-
-                    />
+                    android:src="@drawable/circle" />
                 <ImageView
                     android:layout_marginEnd="@dimen/marginNormal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/circle"
-
-                    />
+                    android:src="@drawable/circle" />
                 <ImageView
                     android:layout_marginEnd="@dimen/marginNormal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/circle"
-
-                    />
-
-
-
+                    android:src="@drawable/circle" />
             </LinearLayout>
 
             <TextView
@@ -260,29 +215,24 @@
                 android:layout_height="wrap_content"
                 android:text="@string/top_rated"
                 android:layout_marginStart="@dimen/marginMedium"
-                android:textSize="@dimen/textLarge"
-                android:textColor="#2A1C14"
-                />
+                android:textSize="@dimen/textXLarge"
+                android:textColor="@color/brown" />
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingVertical="@dimen/marginSmall"
-                android:scrollbars="none"
-                >
+                android:scrollbars="none">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal"
-                    >
+                    android:orientation="horizontal">
 
                     <androidx.cardview.widget.CardView
                         android:layout_marginStart="@dimen/marginNormal"
                         android:layout_width="112dp"
                         android:layout_height="137dp"
                         android:layout_marginEnd="@dimen/marginExtraSmall"
-                        app:cardCornerRadius="@dimen/radiusSmall"
-                       >
-
+                        app:cardCornerRadius="@dimen/radiusSmall">
 
                         <ImageView
                             android:layout_width="match_parent"
@@ -297,46 +247,35 @@
                             android:background="@drawable/inner_gradient" />
 
                         <androidx.appcompat.widget.AppCompatButton
-                            android:layout_width="@dimen/favoriteButtonSize"
-                            android:layout_height="@dimen/favoriteButtonSize"
-                            android:layout_gravity="end"
-                            android:layout_marginTop="@dimen/marginNormal"
-                            android:layout_marginEnd="@dimen/marginNormal"
-                            android:background="@drawable/favorite_button"
-                            android:drawableStart="@drawable/favorite_border"
-                            android:drawableTint="@color/md_theme_light_surface"
-                            android:padding="@dimen/paddingExtraSmall" />
+                            style="@style/loveButton"
+                            android:layout_width="14dp"
+                            android:layout_height="29dp" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginLarge"
-                            android:fontFamily="@font/quicksand_semi_bold"
                             android:text="@string/minions"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textMedium"
-
-                            />
+                            style="@style/seriesTitle" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginSmall"
                             android:text="@string/season_2"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textSmall" />
+                            style="@style/seriesSubTitle" />
+
                     </androidx.cardview.widget.CardView>
+
+                    <ImageView
+                        style="@style/seriesScrollImage"
+                        android:layout_marginEnd="@dimen/marginSmall"
+                        android:src="@drawable/cartoon1" />
+
                     <androidx.cardview.widget.CardView
                         android:layout_width="112dp"
                         android:layout_height="137dp"
                         android:layout_marginStart="@dimen/marginExtraSmall"
                         app:cardCornerRadius="@dimen/radiusSmall"
                         >
-
 
                         <ImageView
                             android:layout_width="match_parent"
@@ -353,43 +292,26 @@
                         <androidx.appcompat.widget.AppCompatButton
                             android:layout_width="@dimen/favoriteButtonSize"
                             android:layout_height="@dimen/favoriteButtonSize"
-                            android:layout_gravity="end"
-                            android:layout_marginTop="@dimen/marginNormal"
-                            android:layout_marginEnd="@dimen/marginNormal"
-                            android:background="@drawable/favorite_button"
-                            android:drawableStart="@drawable/favorite_border"
-                            android:drawableTint="@color/md_theme_light_surface"
-                            android:padding="@dimen/paddingExtraSmall" />
+                            style="@style/loveButton" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginLarge"
-                            android:fontFamily="@font/quicksand_semi_bold"
                             android:text="@string/one_piece"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textMedium" />
+                            style="@style/seriesTitle" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginSmall"
                             android:text="@string/season_2"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textSmall" />
-
-
+                            style="@style/seriesSubTitle" />
                     </androidx.cardview.widget.CardView>
+
                     <androidx.cardview.widget.CardView
                         android:layout_width="112dp"
                         android:layout_height="137dp"
                         android:layout_marginStart="@dimen/marginExtraSmall"
-                        app:cardCornerRadius="@dimen/radiusSmall"
-                        >
+                        app:cardCornerRadius="@dimen/radiusSmall">
 
                         <ImageView
                             android:layout_width="match_parent"
@@ -406,39 +328,22 @@
                         <androidx.appcompat.widget.AppCompatButton
                             android:layout_width="@dimen/favoriteButtonSize"
                             android:layout_height="@dimen/favoriteButtonSize"
-                            android:layout_gravity="end"
-                            android:layout_marginTop="@dimen/marginNormal"
-                            android:layout_marginEnd="@dimen/marginNormal"
-                            android:background="@drawable/favorite_button"
-                            android:drawableStart="@drawable/ic_heart"
-                            android:drawableTint="@color/md_theme_light_surface"
-                            android:padding="@dimen/paddingExtraSmall" />
+                            style="@style/loveButton" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginLarge"
-                            android:fontFamily="@font/quicksand_semi_bold"
                             android:text="@string/naruto"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textMedium"
-
-                            />
+                            style="@style/seriesTitle" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginSmall"
                             android:text="@string/season_2"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textSmall" />
-
+                            style="@style/seriesSubTitle" />
 
                     </androidx.cardview.widget.CardView>
+
                     <androidx.cardview.widget.CardView
                         android:layout_width="112dp"
                         android:layout_height="137dp"
@@ -460,39 +365,22 @@
                         <androidx.appcompat.widget.AppCompatButton
                             android:layout_width="@dimen/favoriteButtonSize"
                             android:layout_height="@dimen/favoriteButtonSize"
-                            android:layout_gravity="end"
-                            android:layout_marginTop="@dimen/marginNormal"
-                            android:layout_marginEnd="@dimen/marginNormal"
-                            android:background="@drawable/favorite_button"
-                            android:drawableStart="@drawable/ic_heart"
-                            android:drawableTint="@color/md_theme_light_surface"
-                            android:padding="@dimen/paddingExtraSmall" />
+                            style="@style/loveButton" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginLarge"
-                            android:fontFamily="@font/quicksand_semi_bold"
                             android:text="@string/dragon_ball_super"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textMedium"
-
-                            />
+                            style="@style/seriesTitle" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginSmall"
                             android:text="@string/season_2"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textSmall" />
-
+                            style="@style/seriesSubTitle" />
 
                     </androidx.cardview.widget.CardView>
+
                     <androidx.cardview.widget.CardView
                         android:layout_width="112dp"
                         android:layout_height="137dp"
@@ -514,39 +402,22 @@
                         <androidx.appcompat.widget.AppCompatButton
                             android:layout_width="@dimen/favoriteButtonSize"
                             android:layout_height="@dimen/favoriteButtonSize"
-                            android:layout_gravity="end"
-                            android:layout_marginTop="@dimen/marginNormal"
-                            android:layout_marginEnd="@dimen/marginNormal"
-                            android:background="@drawable/favorite_button"
-                            android:drawableStart="@drawable/ic_heart"
-                            android:padding="@dimen/paddingExtraSmall"
-                            app:drawableTint="@color/md_theme_light_surface" />
+                            style="@style/loveButton" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginLarge"
-                            android:fontFamily="@font/quicksand_semi_bold"
                             android:text="@string/naruto_shippuden"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textMedium"
-
-                            />
+                            style="@style/seriesTitle" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginSmall"
                             android:text="@string/season_2"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textSmall" />
-
+                            style="@style/seriesSubTitle" />
 
                     </androidx.cardview.widget.CardView>
+
                     <androidx.cardview.widget.CardView
                         android:layout_width="112dp"
                         android:layout_height="137dp"
@@ -568,39 +439,21 @@
                         <androidx.appcompat.widget.AppCompatButton
                             android:layout_width="@dimen/favoriteButtonSize"
                             android:layout_height="@dimen/favoriteButtonSize"
-                            android:layout_gravity="end"
-                            android:layout_marginTop="@dimen/marginNormal"
-                            android:layout_marginEnd="@dimen/marginNormal"
-                            android:background="@drawable/favorite_button"
-                            android:drawableStart="@drawable/ic_heart"
-                            android:drawableTint="@color/md_theme_light_surface"
-                            android:padding="@dimen/paddingExtraSmall" />
+                            style="@style/loveButton" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginLarge"
-                            android:fontFamily="@font/quicksand_semi_bold"
                             android:text="@string/minions"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textMedium"
-
-                            />
+                            style="@style/seriesTitle" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginSmall"
                             android:text="@string/season_2"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textSmall" />
-
-
+                            style="@style/seriesSubTitle" />
                     </androidx.cardview.widget.CardView>
+
                     <androidx.cardview.widget.CardView
                         android:layout_width="112dp"
                         android:layout_height="137dp"
@@ -622,84 +475,50 @@
                         <androidx.appcompat.widget.AppCompatButton
                             android:layout_width="@dimen/favoriteButtonSize"
                             android:layout_height="@dimen/favoriteButtonSize"
-                            android:layout_gravity="end"
-                            android:layout_marginTop="@dimen/marginNormal"
-                            android:layout_marginEnd="@dimen/marginNormal"
-                            android:background="@drawable/favorite_button"
-                            android:drawableStart="@drawable/ic_heart"
-                            android:drawableTint="@color/md_theme_light_surface"
-                            android:padding="@dimen/paddingExtraSmall" />
+                            style="@style/loveButton" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginLarge"
-                            android:fontFamily="@font/quicksand_semi_bold"
                             android:text="@string/one_piece"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textMedium"
-
-                            />
+                            style="@style/seriesTitle" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginSmall"
                             android:text="@string/season_2"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textSmall" />
-
-
+                            style="@style/seriesSubTitle" />
                     </androidx.cardview.widget.CardView>
-
-
-
-
-
-
-
-
-
-
 
                 </LinearLayout>
 
             </HorizontalScrollView>
+
             <TextView
                 android:layout_marginTop="@dimen/marginSmall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/new_episodes"
                 android:layout_marginStart="@dimen/marginMedium"
-                android:textSize="@dimen/textLarge"
-                android:textColor="#2A1C14"
-                />
+                android:textSize="@dimen/textXLarge"
+                android:textColor="@color/brown" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingVertical="16dp"
-                android:scrollbars="none"
-                >
+                android:scrollbars="none">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="horizontal"
-                    >
-
+                    android:orientation="horizontal">
 
                     <androidx.cardview.widget.CardView
                         android:layout_marginStart="@dimen/marginNormal"
                         android:layout_width="112dp"
                         android:layout_height="137dp"
                         android:layout_marginEnd="@dimen/marginExtraSmall"
-                        app:cardCornerRadius="@dimen/radiusSmall"
-                        >
-
+                        app:cardCornerRadius="@dimen/radiusSmall">
 
                         <ImageView
                             android:layout_width="match_parent"
@@ -716,46 +535,26 @@
                         <androidx.appcompat.widget.AppCompatButton
                             android:layout_width="@dimen/favoriteButtonSize"
                             android:layout_height="@dimen/favoriteButtonSize"
-                            android:layout_gravity="end"
-                            android:layout_marginTop="@dimen/marginNormal"
-                            android:layout_marginEnd="@dimen/marginNormal"
-                            android:background="@drawable/favorite_button"
-                            android:drawableStart="@drawable/ic_heart_filled"
-                            android:drawableTint="@color/md_theme_light_surface"
-                            android:padding="@dimen/paddingExtraSmall" />
+                            style="@style/loveButton" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginLarge"
-                            android:fontFamily="@font/quicksand_semi_bold"
                             android:text="@string/minions"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textMedium"
-
-                            />
+                            style="@style/seriesTitle" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginSmall"
                             android:text="@string/season_2"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textSmall" />
+                            style="@style/seriesSubTitle"/>
 
                     </androidx.cardview.widget.CardView>
                     <androidx.cardview.widget.CardView
                         android:layout_width="112dp"
                         android:layout_height="137dp"
                         android:layout_marginStart="@dimen/marginExtraSmall"
-                        app:cardCornerRadius="@dimen/radiusSmall"
-                        >
-
-
+                        app:cardCornerRadius="@dimen/radiusSmall">
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
@@ -771,43 +570,26 @@
                         <androidx.appcompat.widget.AppCompatButton
                             android:layout_width="@dimen/favoriteButtonSize"
                             android:layout_height="@dimen/favoriteButtonSize"
-                            android:layout_gravity="end"
-                            android:layout_marginTop="@dimen/marginNormal"
-                            android:layout_marginEnd="@dimen/marginNormal"
-                            android:background="@drawable/favorite_button"
-                            android:drawableStart="@drawable/ic_heart_filled"
-                            android:drawableTint="@color/md_theme_light_surface"
-                            android:padding="@dimen/paddingExtraSmall" />
+                            style="@style/loveButton" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginLarge"
-                            android:fontFamily="@font/quicksand_semi_bold"
                             android:text="@string/one_piece"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textMedium" />
+                            style="@style/seriesTitle"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginSmall"
                             android:text="@string/season_2"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textSmall" />
-
+                            style="@style/seriesSubTitle"/>
 
                     </androidx.cardview.widget.CardView>
                     <androidx.cardview.widget.CardView
                         android:layout_width="112dp"
                         android:layout_height="137dp"
                         android:layout_marginStart="@dimen/marginExtraSmall"
-                        app:cardCornerRadius="@dimen/radiusSmall"
-                        >
+                        app:cardCornerRadius="@dimen/radiusSmall">
 
                         <ImageView
                             android:layout_width="match_parent"
@@ -824,37 +606,19 @@
                         <androidx.appcompat.widget.AppCompatButton
                             android:layout_width="@dimen/favoriteButtonSize"
                             android:layout_height="@dimen/favoriteButtonSize"
-                            android:layout_gravity="end"
-                            android:layout_marginTop="@dimen/marginNormal"
-                            android:layout_marginEnd="@dimen/marginNormal"
-                            android:background="@drawable/favorite_button"
-                            android:drawableStart="@drawable/ic_heart_filled"
-                            android:drawableTint="@color/md_theme_light_surface"
-                            android:padding="@dimen/paddingExtraSmall" />
+                            style="@style/loveButton" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginLarge"
-                            android:fontFamily="@font/quicksand_semi_bold"
                             android:text="@string/naruto"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textMedium"
-
-                            />
+                            style="@style/seriesTitle" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginSmall"
                             android:text="@string/season_2"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textSmall" />
-
+                            style="@style/seriesSubTitle"/>
 
                     </androidx.cardview.widget.CardView>
                     <androidx.cardview.widget.CardView
@@ -878,37 +642,19 @@
                         <androidx.appcompat.widget.AppCompatButton
                             android:layout_width="@dimen/favoriteButtonSize"
                             android:layout_height="@dimen/favoriteButtonSize"
-                            android:layout_gravity="end"
-                            android:layout_marginTop="@dimen/marginNormal"
-                            android:layout_marginEnd="@dimen/marginNormal"
-                            android:background="@drawable/favorite_button"
-                            android:drawableStart="@drawable/ic_heart_filled"
-                            android:drawableTint="@color/md_theme_light_surface"
-                            android:padding="@dimen/paddingExtraSmall" />
+                            style="@style/loveButton" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginLarge"
-                            android:fontFamily="@font/quicksand_semi_bold"
                             android:text="@string/dragon_ball_super"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textMedium"
-
-                            />
+                            style="@style/seriesTitle" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginSmall"
                             android:text="@string/season_2"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textSmall" />
-
+                            style="@style/seriesSubTitle" />
 
                     </androidx.cardview.widget.CardView>
                     <androidx.cardview.widget.CardView
@@ -932,37 +678,19 @@
                         <androidx.appcompat.widget.AppCompatButton
                             android:layout_width="@dimen/favoriteButtonSize"
                             android:layout_height="@dimen/favoriteButtonSize"
-                            android:layout_gravity="end"
-                            android:layout_marginTop="@dimen/marginNormal"
-                            android:layout_marginEnd="@dimen/marginNormal"
-                            android:background="@drawable/favorite_button"
-                            android:drawableStart="@drawable/ic_heart_filled"
-                            android:padding="@dimen/paddingExtraSmall"
-                            app:drawableTint="@color/md_theme_light_surface" />
+                            style="@style/loveButton" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginLarge"
-                            android:fontFamily="@font/quicksand_semi_bold"
                             android:text="@string/naruto_shippuden"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textMedium"
-
-                            />
+                            style="@style/seriesTitle" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginSmall"
                             android:text="@string/season_2"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textSmall" />
-
+                            style="@style/seriesSubTitle" />
 
                     </androidx.cardview.widget.CardView>
                     <androidx.cardview.widget.CardView
@@ -986,37 +714,19 @@
                         <androidx.appcompat.widget.AppCompatButton
                             android:layout_width="@dimen/favoriteButtonSize"
                             android:layout_height="@dimen/favoriteButtonSize"
-                            android:layout_gravity="end"
-                            android:layout_marginTop="@dimen/marginNormal"
-                            android:layout_marginEnd="@dimen/marginNormal"
-                            android:background="@drawable/favorite_button"
-                            android:drawableStart="@drawable/ic_heart_filled"
-                            android:drawableTint="@color/md_theme_light_surface"
-                            android:padding="@dimen/paddingExtraSmall" />
+                            style="@style/loveButton" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginLarge"
-                            android:fontFamily="@font/quicksand_semi_bold"
                             android:text="@string/minions"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textMedium"
-
-                            />
+                            style="@style/seriesTitle" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginSmall"
                             android:text="@string/season_2"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textSmall" />
-
+                            style="@style/seriesSubTitle"/>
 
                     </androidx.cardview.widget.CardView>
                     <androidx.cardview.widget.CardView
@@ -1041,48 +751,25 @@
                             android:layout_width="@dimen/favoriteButtonSize"
                             android:layout_height="@dimen/favoriteButtonSize"
                             android:layout_gravity="end"
-                            android:layout_marginTop="@dimen/marginNormal"
-                            android:layout_marginEnd="@dimen/marginNormal"
-                            android:background="@drawable/favorite_button"
-                            android:drawableStart="@drawable/ic_heart_filled"
-                            android:drawableTint="@color/md_theme_light_surface"
-                            android:padding="@dimen/paddingExtraSmall" />
+                            style="@style/loveButton" />
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginLarge"
-                            android:fontFamily="@font/quicksand_semi_bold"
                             android:text="@string/one_piece"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textMedium"
-
-                            />
+                            style="@style/seriesTitle"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="bottom"
-                            android:layout_marginStart="@dimen/marginNormal"
-                            android:layout_marginBottom="@dimen/marginSmall"
                             android:text="@string/season_2"
-                            android:textColor="@color/white"
-                            android:textSize="@dimen/textSmall" />
+                            style="@style/seriesSubTitle"/>
 
                     </androidx.cardview.widget.CardView>
-
-
-
-
 
                 </LinearLayout>
 
             </HorizontalScrollView>
-
-
-
 
         </LinearLayout>
     </ScrollView>
