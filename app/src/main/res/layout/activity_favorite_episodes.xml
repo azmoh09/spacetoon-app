@@ -43,48 +43,28 @@
                     android:background="@drawable/inner_gradient" />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    style="@style/loveButton"
                     android:layout_width="@dimen/favoriteButtonSize"
-                    android:layout_height="@dimen/favoriteButtonSize"
-                    android:layout_gravity="end"
-                    android:layout_marginTop="@dimen/marginNormal"
-                    android:layout_marginEnd="@dimen/marginNormal"
-                    android:background="@drawable/favorite_button"
-                    android:drawableStart="@drawable/ic_heart_filled"
-                    android:drawableTint="@color/md_theme_light_surface"
-                    android:padding="@dimen/paddingExtraSmall" />
+                    android:layout_height="@dimen/favoriteButtonSize" />
 
                 <TextView
+                    style="@style/seriesTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:layout_marginStart="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginLarge"
-                    android:fontFamily="@font/quicksand_semi_bold"
-                    android:text="@string/minions"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textMedium"
 
-                    />
+                    android:text="@string/minions" />
 
                 <TextView
+                    style="@style/seriesSubTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:layout_marginStart="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginSmall"
-                    android:text="@string/season_2"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textSmall" />
+                    android:text="@string/season_2" />
 
                 <TextView
+                    style="@style/seriesSubTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|end"
-                    android:layout_marginEnd="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginSmall"
-                    android:text="@string/episode_10"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textSmall" />
+                    android:text="@string/episode_10" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -112,46 +92,29 @@
                     android:background="@drawable/inner_gradient" />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    style="@style/loveButton"
                     android:layout_width="@dimen/favoriteButtonSize"
-                    android:layout_height="@dimen/favoriteButtonSize"
-                    android:layout_gravity="end"
-                    android:layout_marginTop="@dimen/marginNormal"
-                    android:layout_marginEnd="@dimen/marginNormal"
-                    android:background="@drawable/favorite_button"
-                    android:drawableStart="@drawable/ic_heart_filled"
-                    android:drawableTint="@color/md_theme_light_surface"
-                    android:padding="@dimen/paddingExtraSmall" />
+                    android:layout_height="@dimen/favoriteButtonSize" />
 
                 <TextView
+                    style="@style/seriesTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:layout_marginStart="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginLarge"
-                    android:fontFamily="@font/quicksand_semi_bold"
-                    android:text="@string/one_piece"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textMedium" />
+
+                    android:text="@string/one_piece" />
 
                 <TextView
+                    style="@style/seriesSubTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:layout_marginStart="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginSmall"
-                    android:text="@string/season_2"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textSmall" />
+
+                    android:text="@string/season_2" />
 
                 <TextView
+                    style="@style/seriesSubTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|end"
-                    android:layout_marginEnd="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginSmall"
-                    android:text="@string/episode_10"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textSmall" />
+                    android:text="@string/episode_10" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -179,48 +142,34 @@
                     android:background="@drawable/inner_gradient" />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    style="@style/loveButton"
                     android:layout_width="@dimen/favoriteButtonSize"
-                    android:layout_height="@dimen/favoriteButtonSize"
-                    android:layout_gravity="end"
-                    android:layout_marginTop="@dimen/marginNormal"
-                    android:layout_marginEnd="@dimen/marginNormal"
-                    android:background="@drawable/favorite_button"
-                    android:drawableStart="@drawable/ic_heart_filled"
-                    android:drawableTint="@color/md_theme_light_surface"
-                    android:padding="@dimen/paddingExtraSmall" />
+                    android:layout_height="@dimen/favoriteButtonSize" />
 
                 <TextView
+                    style="@style/seriesTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:layout_marginStart="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginLarge"
-                    android:fontFamily="@font/quicksand_semi_bold"
-                    android:text="@string/naruto"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textMedium"
 
-                    />
+                    android:text="@string/naruto" />
 
                 <TextView
+                    style="@style/seriesSubTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:layout_marginStart="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginSmall"
-                    android:text="@string/season_2"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textSmall" />
+
+                    android:text="@string/season_2" />
 
                 <TextView
+                    style="@style/seriesSubTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|end"
-                    android:layout_marginEnd="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginSmall"
-                    android:text="@string/episode_10"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textSmall" />
+                    android:text="@string/episode_10" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/inner_gradient" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -242,54 +191,30 @@
                     android:scaleType="centerCrop"
                     android:src="@drawable/dragon_ball" />
 
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/inner_gradient" />
-
                 <androidx.appcompat.widget.AppCompatButton
+                    style="@style/loveButton"
                     android:layout_width="@dimen/favoriteButtonSize"
-                    android:layout_height="@dimen/favoriteButtonSize"
-                    android:layout_gravity="end"
-                    android:layout_marginTop="@dimen/marginNormal"
-                    android:layout_marginEnd="@dimen/marginNormal"
-                    android:background="@drawable/favorite_button"
-                    android:drawableStart="@drawable/ic_heart_filled"
-                    android:drawableTint="@color/md_theme_light_surface"
-                    android:padding="@dimen/paddingExtraSmall" />
+                    android:layout_height="@dimen/favoriteButtonSize" />
 
                 <TextView
+                    style="@style/seriesTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:layout_marginStart="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginLarge"
-                    android:fontFamily="@font/quicksand_semi_bold"
-                    android:text="@string/dragon_ball_super"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textMedium"
 
-                    />
+                    android:text="@string/dragon_ball_super" />
 
                 <TextView
+                    style="@style/seriesSubTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:layout_marginStart="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginSmall"
-                    android:text="@string/season_2"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textSmall" />
+
+                    android:text="@string/season_2" />
 
                 <TextView
+                    style="@style/seriesSubTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|end"
-                    android:layout_marginEnd="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginSmall"
-                    android:text="@string/episode_10"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textSmall" />
+                    android:text="@string/episode_10" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -317,48 +242,28 @@
                     android:background="@drawable/inner_gradient" />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    style="@style/loveButton"
                     android:layout_width="@dimen/favoriteButtonSize"
-                    android:layout_height="@dimen/favoriteButtonSize"
-                    android:layout_gravity="end"
-                    android:layout_marginTop="@dimen/marginNormal"
-                    android:layout_marginEnd="@dimen/marginNormal"
-                    android:background="@drawable/favorite_button"
-                    android:drawableStart="@drawable/ic_heart_filled"
-                    android:padding="@dimen/paddingExtraSmall"
-                    app:drawableTint="@color/md_theme_light_surface" />
+                    android:layout_height="@dimen/favoriteButtonSize" />
 
                 <TextView
+                    style="@style/seriesTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:layout_marginStart="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginLarge"
-                    android:fontFamily="@font/quicksand_semi_bold"
-                    android:text="@string/naruto_shippuden"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textMedium"
 
-                    />
+                    android:text="@string/naruto_shippuden" />
 
                 <TextView
+                    style="@style/seriesSubTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:layout_marginStart="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginSmall"
-                    android:text="@string/season_2"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textSmall" />
+                    android:text="@string/season_2" />
 
                 <TextView
+                    style="@style/seriesSubTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|end"
-                    android:layout_marginEnd="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginSmall"
-                    android:text="@string/episode_10"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textSmall" />
+                    android:text="@string/episode_10" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -386,48 +291,29 @@
                     android:background="@drawable/inner_gradient" />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    style="@style/loveButton"
                     android:layout_width="@dimen/favoriteButtonSize"
-                    android:layout_height="@dimen/favoriteButtonSize"
-                    android:layout_gravity="end"
-                    android:layout_marginTop="@dimen/marginNormal"
-                    android:layout_marginEnd="@dimen/marginNormal"
-                    android:background="@drawable/favorite_button"
-                    android:drawableStart="@drawable/ic_heart_filled"
-                    android:drawableTint="@color/md_theme_light_surface"
-                    android:padding="@dimen/paddingExtraSmall" />
+                    android:layout_height="@dimen/favoriteButtonSize" />
 
                 <TextView
+                    style="@style/seriesTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:layout_marginStart="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginLarge"
-                    android:fontFamily="@font/quicksand_semi_bold"
-                    android:text="@string/minions"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textMedium"
 
-                    />
+                    android:text="@string/minions" />
 
                 <TextView
+                    style="@style/seriesSubTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:layout_marginStart="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginSmall"
-                    android:text="@string/season_2"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textSmall" />
+
+                    android:text="@string/season_2" />
 
                 <TextView
+                    style="@style/seriesSubTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|end"
-                    android:layout_marginEnd="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginSmall"
-                    android:text="@string/episode_10"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textSmall" />
+                    android:text="@string/episode_10" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -455,48 +341,27 @@
                     android:background="@drawable/inner_gradient" />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    style="@style/loveButton"
                     android:layout_width="@dimen/favoriteButtonSize"
-                    android:layout_height="@dimen/favoriteButtonSize"
-                    android:layout_gravity="end"
-                    android:layout_marginTop="@dimen/marginNormal"
-                    android:layout_marginEnd="@dimen/marginNormal"
-                    android:background="@drawable/favorite_button"
-                    android:drawableStart="@drawable/ic_heart_filled"
-                    android:drawableTint="@color/md_theme_light_surface"
-                    android:padding="@dimen/paddingExtraSmall" />
+                    android:layout_height="@dimen/favoriteButtonSize" />
 
                 <TextView
+                    style="@style/seriesTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:layout_marginStart="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginLarge"
-                    android:fontFamily="@font/quicksand_semi_bold"
-                    android:text="@string/one_piece"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textMedium"
-
-                    />
+                    android:text="@string/one_piece" />
 
                 <TextView
+                    style="@style/seriesSubTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:layout_marginStart="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginSmall"
-                    android:text="@string/season_2"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textSmall" />
+                    android:text="@string/season_2" />
 
                 <TextView
+                    style="@style/seriesSubTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|end"
-                    android:layout_marginEnd="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginSmall"
-                    android:text="@string/episode_10"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textSmall" />
+                    android:text="@string/episode_10" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -524,49 +389,27 @@
                     android:background="@drawable/inner_gradient" />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    style="@style/loveButton"
                     android:layout_width="@dimen/favoriteButtonSize"
-                    android:layout_height="@dimen/favoriteButtonSize"
-                    android:layout_gravity="end"
-                    android:layout_marginTop="@dimen/marginNormal"
-                    android:layout_marginEnd="@dimen/marginNormal"
-                    android:background="@drawable/favorite_button"
-                    android:contentDescription="@string/favorite"
-                    android:drawableStart="@drawable/ic_heart_filled"
-                    android:drawableTint="@color/md_theme_light_surface"
-                    android:padding="@dimen/paddingExtraSmall" />
+                    android:layout_height="@dimen/favoriteButtonSize" />
 
                 <TextView
+                    style="@style/seriesTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:layout_marginStart="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginLarge"
-                    android:fontFamily="@font/quicksand_semi_bold"
-                    android:text="@string/naruto"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textMedium"
-
-                    />
+                    android:text="@string/naruto" />
 
                 <TextView
+                    style="@style/seriesSubTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:layout_marginStart="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginSmall"
-                    android:text="@string/season_2"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textSmall" />
+                    android:text="@string/season_2" />
 
                 <TextView
+                    style="@style/seriesSubTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|end"
-                    android:layout_marginEnd="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginSmall"
-                    android:text="@string/episode_10"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textSmall" />
+                    android:text="@string/episode_10" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -594,48 +437,27 @@
                     android:background="@drawable/inner_gradient" />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    style="@style/loveButton"
                     android:layout_width="@dimen/favoriteButtonSize"
-                    android:layout_height="@dimen/favoriteButtonSize"
-                    android:layout_gravity="end"
-                    android:layout_marginTop="@dimen/marginNormal"
-                    android:layout_marginEnd="@dimen/marginNormal"
-                    android:background="@drawable/favorite_button"
-                    android:drawableStart="@drawable/ic_heart_filled"
-                    android:drawableTint="@color/md_theme_light_surface"
-                    android:padding="@dimen/paddingExtraSmall" />
+                    android:layout_height="@dimen/favoriteButtonSize" />
 
                 <TextView
+                    style="@style/seriesTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:layout_marginStart="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginLarge"
-                    android:fontFamily="@font/quicksand_semi_bold"
-                    android:text="@string/dragon_ball_super"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textMedium"
-
-                    />
+                    android:text="@string/dragon_ball_super" />
 
                 <TextView
+                    style="@style/seriesSubTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:layout_marginStart="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginSmall"
-                    android:text="@string/season_2"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textSmall" />
+                    android:text="@string/season_2" />
 
                 <TextView
+                    style="@style/seriesSubTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|end"
-                    android:layout_marginEnd="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginSmall"
-                    android:text="@string/episode_10"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textSmall" />
+                    android:text="@string/episode_10" />
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -663,48 +485,27 @@
                     android:background="@drawable/inner_gradient" />
 
                 <androidx.appcompat.widget.AppCompatButton
+                    style="@style/loveButton"
                     android:layout_width="@dimen/favoriteButtonSize"
-                    android:layout_height="@dimen/favoriteButtonSize"
-                    android:layout_gravity="end"
-                    android:layout_marginTop="@dimen/marginNormal"
-                    android:layout_marginEnd="@dimen/marginNormal"
-                    android:background="@drawable/favorite_button"
-                    android:drawableStart="@drawable/ic_heart_filled"
-                    android:drawableTint="@color/md_theme_light_surface"
-                    android:padding="@dimen/paddingExtraSmall" />
+                    android:layout_height="@dimen/favoriteButtonSize" />
 
                 <TextView
+                    style="@style/seriesTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:layout_marginStart="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginLarge"
-                    android:fontFamily="@font/quicksand_semi_bold"
-                    android:text="@string/naruto_shippuden"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textMedium"
-
-                    />
+                    android:text="@string/naruto_shippuden" />
 
                 <TextView
+                    style="@style/seriesSubTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom"
-                    android:layout_marginStart="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginSmall"
-                    android:text="@string/season_2"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textSmall" />
+                    android:text="@string/season_2" />
 
                 <TextView
+                    style="@style/seriesSubTitle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="bottom|end"
-                    android:layout_marginEnd="@dimen/marginNormal"
-                    android:layout_marginBottom="@dimen/marginSmall"
-                    android:text="@string/episode_10"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/textSmall" />
+                    android:text="@string/episode_10" />
             </androidx.cardview.widget.CardView>
 
             <androidx.constraintlayout.widget.Guideline
@@ -735,7 +536,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/item10" />
         </androidx.constraintlayout.widget.ConstraintLayout>
-
     </ScrollView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

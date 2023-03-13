@@ -9,11 +9,11 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
-        android:text="Planet"
+        android:layout_marginStart="@dimen/marginSmall"
+        android:layout_marginTop="@dimen/marginLarge"
+        android:text="@string/namePlanet"
         android:textColor="#494A46"
-        android:textSize="20sp"
+        android:textSize="@dimen/textLarge"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -21,20 +21,21 @@
         android:id="@+id/imageView"
         android:layout_width="30dp"
         android:layout_height="28dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginStart="@dimen/marginLarge"
+        android:layout_marginTop="@dimen/marginLarge"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/arrow" />
+        app:srcCompat="@drawable/arrow"
+        android:contentDescription="@string/anime_image" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="@dimen/marginMedium"
         android:layout_marginTop="40dp"
-        android:text="Name Planet"
-        android:textColor="#2A1C14"
+        android:text="@string/namePlanet"
+        android:textColor="@color/brown"
         android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
@@ -43,8 +44,8 @@
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="18dp"
+        android:layout_marginStart="@dimen/marginMedium"
+        android:layout_marginTop="@dimen/marginMedium"
         android:text="@string/content"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
@@ -53,21 +54,21 @@
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="@dimen/marginLarge"
         app:layout_constraintStart_toEndOf="@+id/textView5"
         app:layout_constraintTop_toTopOf="@+id/textView4"
-        app:srcCompat="@drawable/a" />
-
+        app:srcCompat="@drawable/a"
+        tools:ignore="ContentDescription" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:text="Cartoons"
-        android:textColor="#2A1C14"
+        android:layout_marginStart="@dimen/marginMedium"
+        android:layout_marginBottom="@dimen/marginMedium"
+        android:text="@string/cartoons"
+        android:textColor="@color/brown"
         android:textSize="20sp"
-        android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toTopOf="@+id/scroll"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -75,10 +76,10 @@
         android:id="@+id/button2"
         android:layout_width="279dp"
         android:layout_height="43dp"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="@dimen/marginLarge"
         android:background="@drawable/circle_button"
         android:backgroundTint="#FF5E00"
-        android:text="Show All"
+        android:text="@string/show_all"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -87,13 +88,12 @@
         android:id="@+id/scroll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="@dimen/marginMedium"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
-
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
@@ -101,203 +101,194 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
+                android:layout_margin="@dimen/marginMedium"
                 android:background="@android:color/transparent">
 
                 <LinearLayout
-
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
 
                     <ImageView
                         android:layout_width="174dp"
                         android:layout_height="247dp"
-                        app:srcCompat="@drawable/gfg" />
-
+                        app:srcCompat="@drawable/gfg"
+                        tools:ignore="ContentDescription" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginTop="16dp"
-                        android:layout_marginBottom="8dp"
-                        android:text="Anime Dragon"
-                        android:textColor="#2A1C14" />
+                        android:layout_marginTop="@dimen/marginMedium"
+                        android:layout_marginBottom="@dimen/marginSmall"
+                        android:text="@string/anime_dragon"
+                        android:textColor="@color/brown" />
 
                 </LinearLayout>
-
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
+                android:layout_margin="@dimen/marginMedium"
                 android:background="@android:color/transparent">
 
                 <LinearLayout
-
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
 
                     <ImageView
                         android:layout_width="174dp"
                         android:layout_height="247dp"
-                        app:srcCompat="@drawable/c" />
-
+                        app:srcCompat="@drawable/c"
+                        tools:ignore="ContentDescription" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginTop="16dp"
-                        android:layout_marginBottom="8dp"
-                        android:text="Dragon Ball Z"
-                        android:textColor="#2A1C14" />
+                        android:layout_marginTop="@dimen/marginMedium"
+                        android:layout_marginBottom="@dimen/marginSmall"
+                        android:text="@string/dragon_ball_z"
+                        android:textColor="@color/brown" />
 
                 </LinearLayout>
-
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
+                android:layout_margin="@dimen/marginMedium"
                 android:background="@android:color/transparent">
 
                 <LinearLayout
-
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
 
                     <ImageView
-
                         android:layout_width="174dp"
                         android:layout_height="247dp"
-                        app:srcCompat="@drawable/gfg" />
-
+                        app:srcCompat="@drawable/gfg"
+                        tools:ignore="ContentDescription" />
 
                     <TextView
-
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginTop="16dp"
-                        android:layout_marginBottom="8dp"
-                        android:text="Anime Dragon"
-                        android:textColor="#2A1C14" />
+                        android:layout_marginTop="@dimen/marginMedium"
+                        android:layout_marginBottom="@dimen/marginSmall"
+                        android:text="@string/anime_dragon"
+                        android:textColor="@color/brown" />
 
                 </LinearLayout>
-
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
+                android:layout_margin="@dimen/marginMedium"
                 android:background="@android:color/transparent">
 
                 <LinearLayout
-
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
 
                     <ImageView
                         android:layout_width="174dp"
                         android:layout_height="247dp"
-                        app:srcCompat="@drawable/c" />
-
+                        app:srcCompat="@drawable/c"
+                        tools:ignore="ContentDescription" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginTop="16dp"
-                        android:layout_marginBottom="8dp"
-                        android:text="Dragon Ball Z"
-                        android:textColor="#2A1C14" />
+                        android:layout_marginTop="@dimen/marginMedium"
+                        android:layout_marginBottom="@dimen/marginSmall"
+                        android:text="@string/dragon_ball_z"
+                        android:textColor="@color/brown" />
 
                 </LinearLayout>
-
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
+                android:layout_margin="@dimen/marginMedium"
                 android:background="@android:color/transparent">
 
                 <LinearLayout
-
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
 
                     <ImageView
                         android:id="@+id/imageView3"
                         android:layout_width="174dp"
                         android:layout_height="247dp"
-                        app:srcCompat="@drawable/gfg" />
-
+                        app:srcCompat="@drawable/gfg"
+                        tools:ignore="ContentDescription" />
 
                     <TextView
                         android:id="@+id/textView7"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginTop="16dp"
-                        android:layout_marginBottom="8dp"
-                        android:text="Anime Dragon"
-                        android:textColor="#2A1C14" />
+                        android:layout_marginTop="@dimen/marginMedium"
+                        android:layout_marginBottom="@dimen/marginSmall"
+                        android:text="@string/anime_dragon"
+                        android:textColor="@color/brown" />
 
                 </LinearLayout>
-
 
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
+                android:layout_margin="@dimen/marginMedium"
                 android:background="@android:color/transparent">
 
                 <LinearLayout
 
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
 
                     <ImageView
                         android:layout_width="174dp"
                         android:layout_height="247dp"
-                        app:srcCompat="@drawable/c" />
-
+                        app:srcCompat="@drawable/c"
+                        tools:ignore="ContentDescription" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginTop="16dp"
-                        android:layout_marginBottom="8dp"
-                        android:text="Dragon Ball Z"
-                        android:textColor="#2A1C14" />
+                        android:layout_marginTop="@dimen/marginMedium"
+                        android:layout_marginBottom="@dimen/marginSmall"
+                        android:text="@string/dragon_ball_z"
+                        android:textColor="@color/brown" />
 
                 </LinearLayout>
-
 
             </androidx.cardview.widget.CardView>
 
         </LinearLayout>
 
-
     </HorizontalScrollView>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
