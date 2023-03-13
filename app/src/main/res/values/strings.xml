@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">Spactoon App</string>
+
+    <string name="content">Lorem ipsum dolor sit amet\nconsectetur. Dolor elementum\n molestie praesent tellus arcu\n augue id. Semper habitant\n euismod mauris sed. Elit lectus\n egestas vitae nulla aliquam\n adipiscing dolor nulla vel. Id augue\namet aenean turpis. Eget ut ut\n accumsan augue dui cras sagittis.</string>
+
+    <string name="naruto_shippuden">Naruto Shippuden</string>
+    <string name="dragon_ball_super">Dragon Ball Super</string>
+    <string name="naruto">Naruto</string>
+    <string name="one_piece">One Piece</string>
+    <string name="minions">Minions</string>
+    <string name="season_2">season 2</string>
+    <string name="episode_10">episode 10</string>
+    <string name="home">Home</string>
+    <string name="favorite">Favorite</string>
+    <string name="notifications">Notifications</string>
+    <string name="profile">Profile</string>
+    <string name="planet">planet</string>
+    <string name="top_rated">Top rated series</string>
+    <string name="new_episodes">New episodes</string>
+    <string name="namePlanet">Planet</string>
+    <string name="cartoons">Cartoons</string>
+    <string name="show_all">Show All</string>
+    <string name="anime_dragon">Anime Dragon</string>
+    <string name="dragon_ball_z">Dragon Ball Z</string>
+    <string name="anime_image">anime image</string>
+
 </resources>
