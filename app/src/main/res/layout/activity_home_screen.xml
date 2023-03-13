@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -24,7 +25,8 @@
             android:src="@drawable/spacetoon_logo"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
 
         <ImageView
             android:layout_width="24dp"
@@ -34,7 +36,8 @@
             android:src="@drawable/search_icon"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <ScrollView
@@ -47,7 +50,7 @@
         android:scrollbars="none">
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
             <HorizontalScrollView
                 android:layout_width="wrap_content"
@@ -57,15 +60,17 @@
                 <LinearLayout
                     android:layout_marginTop="@dimen/marginMedium"
                     android:orientation="horizontal"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
                     <LinearLayout
                         android:orientation="vertical"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        tools:ignore="UseCompoundDrawables">
                         <ImageView
                             style="@style/planetsScrollImage"
-                            android:src="@drawable/planet" />
+                            android:src="@drawable/planet"
+                            tools:ignore="ContentDescription" />
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -77,19 +82,30 @@
                     <LinearLayout
                         android:orientation="vertical"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        tools:ignore="UseCompoundDrawables">
                         <ImageView
                             style="@style/planetsScrollImage"
-                            android:src="@drawable/planet2" />
+                            android:src="@drawable/planet2"
+                            tools:ignore="ContentDescription" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/planet"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/textSmall"
+                            android:textColor="@color/black" />
 
                     </LinearLayout>
                     <LinearLayout
                         android:orientation="vertical"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        tools:ignore="UseCompoundDrawables">
                         <ImageView
                             style="@style/planetsScrollImage"
-                            android:src="@drawable/planet3" />
+                            android:src="@drawable/planet3"
+                            tools:ignore="ContentDescription" />
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -101,10 +117,12 @@
                     <LinearLayout
                         android:orientation="vertical"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        tools:ignore="UseCompoundDrawables">
                         <ImageView
                             style="@style/planetsScrollImage"
-                            android:src="@drawable/planet" />
+                            android:src="@drawable/planet"
+                            tools:ignore="ContentDescription" />
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -116,10 +134,12 @@
                     <LinearLayout
                         android:orientation="vertical"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        tools:ignore="UseCompoundDrawables">
                         <ImageView
                             style="@style/planetsScrollImage"
-                            android:src="@drawable/planet2" />
+                            android:src="@drawable/planet2"
+                            tools:ignore="ContentDescription" />
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -131,10 +151,12 @@
                     <LinearLayout
                         android:orientation="vertical"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        tools:ignore="UseCompoundDrawables">
                         <ImageView
                             style="@style/planetsScrollImage"
-                            android:src="@drawable/planet3" />
+                            android:src="@drawable/planet3"
+                            tools:ignore="ContentDescription" />
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -159,11 +181,13 @@
                     <ImageView
                         style="@style/seriesScrollImage"
                         android:src="@drawable/cartoon1"
-                        android:layout_marginEnd="@dimen/marginSmall" />
+                        android:layout_marginEnd="@dimen/marginSmall"
+                        tools:ignore="ContentDescription" />
                     <ImageView
                         style="@style/seriesScrollImage"
                         android:src="@drawable/cartoon1"
-                        android:layout_marginEnd="@dimen/marginSmall" />
+                        android:layout_marginEnd="@dimen/marginSmall"
+                        tools:ignore="ContentDescription" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -182,31 +206,40 @@
                 android:orientation="horizontal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:src="@drawable/circle"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
                 <ImageView
                     android:layout_marginEnd="@dimen/marginNormal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/circle" />
-                <ImageView
-                    android:layout_marginEnd="@dimen/marginNormal"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    tools:ignore="ContentDescription"
                     android:src="@drawable/circleorange"/>
+
                 <ImageView
-                    android:layout_marginEnd="@dimen/marginNormal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/circle" />
-                <ImageView
                     android:layout_marginEnd="@dimen/marginNormal"
+                    android:src="@drawable/circle"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/circle" />
-                <ImageView
                     android:layout_marginEnd="@dimen/marginNormal"
+                    android:src="@drawable/circle"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/circle" />
+                    android:layout_marginEnd="@dimen/marginNormal"
+                    android:src="@drawable/circle"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
             </LinearLayout>
 
             <TextView
@@ -223,7 +256,7 @@
                 android:paddingVertical="@dimen/marginSmall"
                 android:scrollbars="none">
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:orientation="horizontal">
 
@@ -249,7 +282,8 @@
                         <androidx.appcompat.widget.AppCompatButton
                             style="@style/loveButton"
                             android:layout_width="14dp"
-                            android:layout_height="29dp" />
+                            android:layout_height="29dp"
+                            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -268,7 +302,8 @@
                     <ImageView
                         style="@style/seriesScrollImage"
                         android:layout_marginEnd="@dimen/marginSmall"
-                        android:src="@drawable/cartoon1" />
+                        android:src="@drawable/cartoon1"
+                        tools:ignore="ContentDescription" />
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="112dp"
@@ -470,12 +505,14 @@
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@drawable/inner_gradient" />
+                            android:background="@drawable/inner_gradient"
+                            tools:ignore="TooManyViews" />
 
                         <androidx.appcompat.widget.AppCompatButton
                             android:layout_width="@dimen/favoriteButtonSize"
                             android:layout_height="@dimen/favoriteButtonSize"
-                            style="@style/loveButton" />
+                            style="@style/loveButton"
+                            tools:ignore="TooManyViews" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -509,7 +546,7 @@
                 android:paddingVertical="16dp"
                 android:scrollbars="none">
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:orientation="horizontal">
 

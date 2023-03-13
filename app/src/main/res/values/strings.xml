@@ -14,8 +14,14 @@
     <string name="favorite">Favorite</string>
     <string name="notifications">Notifications</string>
     <string name="profile">Profile</string>
-    <string name="planet">"planet "</string>
+    <string name="planet">planet</string>
     <string name="top_rated">Top rated series</string>
     <string name="new_episodes">New episodes</string>
+    <string name="namePlanet">Planet</string>
+    <string name="cartoons">Cartoons</string>
+    <string name="show_all">Show All</string>
+    <string name="anime_dragon">Anime Dragon</string>
+    <string name="dragon_ball_z">Dragon Ball Z</string>
+    <string name="anime_image">anime image</string>
 
 </resources>
